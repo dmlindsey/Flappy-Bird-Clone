@@ -14,7 +14,7 @@
 		115CBDC320AA2910003CB5E1 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115CBDC220AA2910003CB5E1 /* GameViewController.swift */; };
 		115CBDC620AA2910003CB5E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115CBDC420AA2910003CB5E1 /* Main.storyboard */; };
 		115CBDC820AA2913003CB5E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 115CBDC720AA2913003CB5E1 /* Assets.xcassets */; };
-		115CBDCB20AA2913003CB5E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115CBDC920AA2913003CB5E1 /* LaunchScreen.storyboard */; };
+		115CBDD320AA2946003CB5E1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115CBDD220AA2946003CB5E1 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +26,8 @@
 		115CBDC220AA2910003CB5E1 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		115CBDC520AA2910003CB5E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		115CBDC720AA2913003CB5E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		115CBDCA20AA2913003CB5E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		115CBDCC20AA2913003CB5E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		115CBDD220AA2946003CB5E1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +67,8 @@
 				115CBDC220AA2910003CB5E1 /* GameViewController.swift */,
 				115CBDC420AA2910003CB5E1 /* Main.storyboard */,
 				115CBDC720AA2913003CB5E1 /* Assets.xcassets */,
-				115CBDC920AA2913003CB5E1 /* LaunchScreen.storyboard */,
 				115CBDCC20AA2913003CB5E1 /* Info.plist */,
+				115CBDD220AA2946003CB5E1 /* Launch Screen.storyboard */,
 			);
 			path = "Flappy Bird DML";
 			sourceTree = "<group>";
@@ -134,7 +134,7 @@
 				115CBDC620AA2910003CB5E1 /* Main.storyboard in Resources */,
 				115CBDBD20AA2910003CB5E1 /* GameScene.sks in Resources */,
 				115CBDC820AA2913003CB5E1 /* Assets.xcassets in Resources */,
-				115CBDCB20AA2913003CB5E1 /* LaunchScreen.storyboard in Resources */,
+				115CBDD320AA2946003CB5E1 /* Launch Screen.storyboard in Resources */,
 				115CBDBF20AA2910003CB5E1 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,14 +161,6 @@
 				115CBDC520AA2910003CB5E1 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		115CBDC920AA2913003CB5E1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				115CBDCA20AA2913003CB5E1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
